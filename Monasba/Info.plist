@@ -12,8 +12,6 @@
 		<string>fbapi</string>
 		<string>fb-messenger-share-api</string>
 	</array>
-	<key>NSCameraUsageDescription</key>
-	<string>يريد التطبيق الوصول للكاميرا لوضع صورة للاعلان او للملف الشخصي </string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

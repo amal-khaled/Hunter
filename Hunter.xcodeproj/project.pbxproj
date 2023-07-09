@@ -252,7 +252,7 @@
 		65C7FF0129FD461D0062BFAA /* CounriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounriesViewController.swift; sourceTree = "<group>"; };
 		65C7FF0329FD46DE0062BFAA /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
 		65D61ED12A15FE4000C3FC68 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		65DD11F329E6845D00A3B8DD /* Monasba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monasba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DD11F329E6845D00A3B8DD /* Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DD11F629E6845D00A3B8DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65DD11F829E6845D00A3B8DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		65DD11FA29E6845D00A3B8DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -617,7 +617,7 @@
 		65DD11F429E6845D00A3B8DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65DD11F329E6845D00A3B8DD /* Monasba.app */,
+				65DD11F329E6845D00A3B8DD /* Hunter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -995,9 +995,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65DD11F229E6845D00A3B8DD /* Monasba */ = {
+		65DD11F229E6845D00A3B8DD /* Hunter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65DD120729E6845E00A3B8DD /* Build configuration list for PBXNativeTarget "Monasba" */;
+			buildConfigurationList = 65DD120729E6845E00A3B8DD /* Build configuration list for PBXNativeTarget "Hunter" */;
 			buildPhases = (
 				6C7C36FA841450037A777322 /* [CP] Check Pods Manifest.lock */,
 				65DD11EF29E6845D00A3B8DD /* Sources */,
@@ -1010,9 +1010,9 @@
 			);
 			dependencies = (
 			);
-			name = Monasba;
+			name = Hunter;
 			productName = Monasba;
-			productReference = 65DD11F329E6845D00A3B8DD /* Monasba.app */;
+			productReference = 65DD11F329E6845D00A3B8DD /* Hunter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1030,7 +1030,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65DD11EE29E6845D00A3B8DD /* Build configuration list for PBXProject "Monasba" */;
+			buildConfigurationList = 65DD11EE29E6845D00A3B8DD /* Build configuration list for PBXProject "Hunter" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1044,7 +1044,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65DD11F229E6845D00A3B8DD /* Monasba */,
+				65DD11F229E6845D00A3B8DD /* Hunter */,
 			);
 		};
 /* End PBXProject section */
@@ -1469,13 +1469,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Monasba/Monasba.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 42;
 				DEVELOPMENT_TEAM = 4W85KLPQDW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Monasba/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Monsba;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
-				INFOPLIST_KEY_NSCameraUsageDescription = "يريد مناسبة الوصول للكاميرا لوضع صورة للاعلان او للملف الشخصي ";
+				INFOPLIST_KEY_NSCameraUsageDescription = "يريد التطبيق الوصول للكاميرا لوضع صورة للاعلان او للملف الشخصي ";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "يريد مناسبة الوصول للميكروفون لتسجيل فيديو للاعلان او لارسال تسجيل صوتي في المحادثة";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -1489,7 +1489,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.adv.monasbah;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluezone.hunter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Monasba/Shimmer/Monasba-Bridging-Header.h";
@@ -1506,13 +1506,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Monasba/Monasba.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 42;
 				DEVELOPMENT_TEAM = 4W85KLPQDW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Monasba/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Monsba;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
-				INFOPLIST_KEY_NSCameraUsageDescription = "يريد مناسبة الوصول للكاميرا لوضع صورة للاعلان او للملف الشخصي ";
+				INFOPLIST_KEY_NSCameraUsageDescription = "يريد التطبيق الوصول للكاميرا لوضع صورة للاعلان او للملف الشخصي ";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "يريد مناسبة الوصول للميكروفون لتسجيل فيديو للاعلان او لارسال تسجيل صوتي في المحادثة";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -1526,7 +1526,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.adv.monasbah;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluezone.hunter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Monasba/Shimmer/Monasba-Bridging-Header.h";
@@ -1538,7 +1538,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65DD11EE29E6845D00A3B8DD /* Build configuration list for PBXProject "Monasba" */ = {
+		65DD11EE29E6845D00A3B8DD /* Build configuration list for PBXProject "Hunter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65DD120529E6845E00A3B8DD /* Debug */,
@@ -1547,7 +1547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65DD120729E6845E00A3B8DD /* Build configuration list for PBXNativeTarget "Monasba" */ = {
+		65DD120729E6845E00A3B8DD /* Build configuration list for PBXNativeTarget "Hunter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65DD120829E6845E00A3B8DD /* Debug */,
